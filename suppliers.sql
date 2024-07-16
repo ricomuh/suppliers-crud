@@ -38,10 +38,10 @@ CREATE TABLE `suppliers` (
 -- Dumping data for table `suppliers`
 --
 
-INSERT INTO `suppliers` (`id`, `nama`, `alamat`, `telp`) VALUES
-(1, 'Rico', 'Desa Bago', '08212324324324'),
-(2, 'Fidha', 'Karangawen', '083423534543'),
-(4, 'Sukma', 'Demak', '29837979324');
+INSERT INTO `suppliers` (`nama`, `alamat`, `telp`) VALUES
+('Rico', 'Desa Bago', '08212324324324'),
+('Fidha', 'Karangawen', '083423534543'),
+('Sukma', 'Demak', '29837979324');
 
 --
 -- Indexes for dumped tables

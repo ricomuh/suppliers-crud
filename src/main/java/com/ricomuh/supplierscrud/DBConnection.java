@@ -1,11 +1,11 @@
-package com.ricomuh.kasir.kasir;
+package com.ricomuh.supplierscrud;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-    public static String url = "jdbc:mysql://localhost:3306/kasir";
+    public static String url = "jdbc:mysql://localhost:3306/uas";
     public static String user = "root";
     public static String pass = "";
     public static String driver = "com.mysql.cj.jdbc.Driver";
